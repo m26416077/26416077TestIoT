@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 26416077TestIoT
+  host: 26416077TestIoT
+  disk_quota: 1024M
+  services:
+  - 26416077TestIoT-cloudantNoSQLDB
+  - 26416077TestIoT-iotf-service
